@@ -183,7 +183,7 @@ function triggerPopupAudio(win) {
 function openWindow() {
 	if (isKilled()) return null;
 	const win = window.open(
-		'/moron?session=' + encodeURIComponent(sessionId),
+		'/?session=' + encodeURIComponent(sessionId),
 		"_blank",
 		'menubar=no, status=no, toolbar=no, resizable=no, width=357, height=330, titlebar=no, alwaysRaised=yes'
 	);
